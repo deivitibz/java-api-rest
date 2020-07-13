@@ -1,0 +1,23 @@
+GET http://localhost:8080/products
+###
+GET http://localhost:8080/products/3
+
+###
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+    "name": "cargador macbook"
+}
+
+###
+DELETE http://localhost:8080/products/2
+
+###
+PUT http://localhost:8080/products
+Content-Type: application/json
+
+{
+    "id" : 1,
+    "name" : "ipod touch"
+}
