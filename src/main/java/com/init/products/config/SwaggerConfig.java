@@ -1,6 +1,6 @@
 package com.init.products.config;
 
-import org.hibernate.sql.Select;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
